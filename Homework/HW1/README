@@ -1,0 +1,24 @@
+/*      file: soc.c
+ *      team: Team E
+ *      logins: shultzam
+ *              maychen
+ *              micahtas
+ *              sojacky
+ *      date: 2/4/2014
+ */
+
+
+
+To compile subtask 1 and 0, type into the console:
+"make datest".
+
+To compile subtask 2 including soc, type into console:
+"make datest2".
+
+
+There is a known issue with the "Get" alogrithms in that when they are
+implemented they sometimes result in a segmentation fault. This fault
+is due to trying to access memory in a location that is not allowed. It's
+a warning from the operating system. I will ask the professor about this tomorrow.
+
+- Allen

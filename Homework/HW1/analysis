@@ -1,0 +1,39 @@
+File: Analysis for Hw1
+Team: Team E
+Members: Allen Shultz (shultzam)
+	May Chen	(maychen)
+	Jacky So	(sojacky)
+	Micah Tashima	(micahtas)
+Date: 2.21.14
+
+To complete Hw1, our team had to make many decisions in how to design our program and implement
+our functions together to mae everything work together. Originally our files from our labs worked
+fine but when we tried to implement everything for the homework, we ran into some problems and
+compilation errors. 
+
+For our design, we generally converted everything into C++. This involved adding
+'const' to our functions along with makign inline functions. We also had o change our structs into
+classes. At this point of the design we had some trouble with the heirarchical approach because some
+files could not access certain information that we had declared as private or public. We realized
+that we might have implemented our classes backwards and had to redo it. We were able to fix this 
+problem though.
+
+After converting our structs to classes, we added the appropriate functions into the classes and also
+continued to designate what was public and private to the members of the classes. After doing that
+we continued to implement the functions and created a new files called appt.h and appt.cc which were
+specifically made for the homework. We creaed new functions and implemented those as well. In the
+process of doing this we also had to overload some function operators.
+
+This is our general design process for this homework assignment and our biggest design decision that
+affected majority of our files was our conversion from structs to classes.
+
+Some alternatives that we considered while doing this homework assignment was changing our
+character functions to strings instead because it wouldn't work with the char.
+
+For our DaTime and Time classes, our changes in the design many consisted of simplifying our
+functions and using the '.' to access functions and methods to our object rather than using
+'&' and '->'. We also converted to using the scoping operator (::) for our functions in DaTime and
+Time. These were the main changes to our design for the DaTime and Time classes.
+
+
+Our program has limitations due to our shortcomings. Our functions are good, save for some minor tweaks. But the one thing we couldn't clean up was when and how to use static functions and static variables. Because of this, we cannot store an appointment; and because of that, we were never able to determine if the print/delete/etc functions were working, though they were before we tried to store our apointments.
